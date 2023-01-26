@@ -5,6 +5,11 @@
 	padding: 0;
 }
 
+.alert{
+	background-color: crimson;
+	color: #FFF;
+}
+
 body {
 	text-align: center;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -29,7 +34,10 @@ body {
 	display: block;
 	width: 800px;
 	height: 140px;
-	background-image: url("../img/My\ project-1\ \(1\).jpg");
+	background-image: url("../img/My\ project-1(1).jpg");
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
 }
 #nav {
 	background-color: #000;
@@ -68,6 +76,29 @@ body {
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
+
+#content h2{
+	border-bottom: 2px dotted lightslategray;
+}
+
+#content h3{
+	border-bottom: 2px dotted lightblue;
+}
+
+#content h4{
+	border-bottom: 2px dotted whitesmoke;
+}
+
+#content a:hover{
+	background-color: aquamarine;
+}
+
+.img-right {
+	float: right;
+	border-style: dotted;
+	margin: 10px 0 10px 20px;
+}
+
 #footer {
 	background-color: #000;
 	color: #FFF;
