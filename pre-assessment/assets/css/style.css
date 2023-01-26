@@ -26,8 +26,10 @@ body {
 #header {
 }
 #header h1 a {
+	display: block;
 	width: 800px;
 	height: 140px;
+	background-image: url("../img/My project-1.jpg");
 }
 #nav {
 	background-color: #000;
