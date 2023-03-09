@@ -25,17 +25,17 @@ html {
   
   /* End of "Micro clearfix" */
 
-  /*background-image:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/7248/grid-1.png");*/
+  /*background-image:url("C:\Users\gwjones.000\Downloads\grid.png");*/
 
   main{
-    width: 960px;
+    width: 1136px;
     margin: 20px auto;
     border: 1px solid #000;
-    background-image:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/7248/grid-1.png");
+    background-image:url("C:\Users\gwjones.000\Downloads\grid.png");
   }
 
   header.primary{
-    width: 920px;
+    width: 1096px;
     margin: 20px;
     background-color: rgba(0,0,0,.4);
     float: left;
@@ -43,7 +43,7 @@ html {
   }
 
   #blog{
-    width: 638px;
+    width: 418px;
     background-color: rgba(0,0,0,.4);
     float: left;
     margin-left: 20px;
@@ -51,7 +51,7 @@ html {
   }
 
   aside{
-    width: 262px;
+    width: 418px;
     float: left;
     background-color: rgba(0,0,0,.4);
     margin-left: 20px;
@@ -59,7 +59,7 @@ html {
   }
 
   footer.primary{
-    width: 920px;
+    width: 1096px;
     margin: 20px;
     background-color: rgba(0,0,0,.4);
     float: left;
