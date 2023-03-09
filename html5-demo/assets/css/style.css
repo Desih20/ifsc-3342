@@ -28,10 +28,9 @@ html {
   /*background-image:url("C:\Users\gwjones.000\Downloads\grid.png");*/
 
   main{
-    width: 1136px;
+    width: 80vw;
     margin: 20px auto;
     border: 1px solid #000;
-    background-image:url("C:\Users\gwjones.000\Downloads\grid.png");
   }
 
   header.primary{
@@ -75,3 +74,21 @@ html {
     /*padding: 20px;*/
     padding: 1.83%;
   }
+
+@media screen and (min-width:800px) {
+  main{
+    width: 1136px;
+  }
+}
+
+@media screen and (min-width:600px) {
+  main{
+    width: 936px;
+  }
+}
+
+@media screen and (min-width:400px) {
+  main{
+    width: 696px;
+  }
+}
