@@ -28,39 +28,49 @@ html {
   /*background-image:url("C:\Users\gwjones.000\Downloads\grid.png");*/
 
   main{
-    width: 1136px;
+    width: 80vw;
     margin: 20px auto;
     border: 1px solid #372599;
   }
 
   header.primary{
-    width: 1096px;
-    margin: 20px;
+    /*width: 1096px;*/
+    width: 96.47%;
+    /*margin: 20px;*/
+    margin: 1.76%;
     background-color: rgba(90,91,200,.8);
     float: left;
-    padding: 20px;
+    /*padding: 20px;*/
+    padding: 1.83%;
   }
 
   #blog{
-    width: 538px;
+    /*width: 538px;*/
+    width: 47.35%;
     background-color: rgba(90,91,200,.8);
     float: left;
     margin-left: 20px;
-    padding: 20px;
+    /*padding: 20px;*/
+    padding: 3.71%;
   }
 
   aside{
-    width: 538px;
+    /*width: 538px;*/
+    width: 47.35%;
     background-color: rgba(90,91,200,.8);
     float: left;
     margin-left: 20px;
-    padding: 20px;
+    /*padding: 20px;*/
+    padding: 3.71%;
   }
 
   footer.primary{
-    width: 1096px;
-    margin: 20px;
+    /*width: 1096px;*/
+    width: 96.47%;
+    /*margin: 20px;*/
+    margin: 1.76%;
     background-color: rgba(90,91,200,.8);
     float: left;
-    padding: 20px;
+    /*padding: 20px;*/
+    padding: 1.83%;
   }
