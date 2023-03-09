@@ -74,21 +74,3 @@ html {
     /*padding: 20px;*/
     padding: 1.83%;
   }
-
-@media screen and (min-width:800px) {
-  main{
-    width: 960px;
-  }
-}
-
-@media screen and (min-width:600px) {
-  main{
-    width: 760px;
-  }
-}
-
-@media screen and (min-width:400px) {
-  main{
-    width: 520px;
-  }
-}
