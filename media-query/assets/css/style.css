@@ -1,0 +1,64 @@
+/* apply a natural box layout model to all elements, but allowing components to change 
+http://thomaswallace.net/modules/understanding-web-related-terminology/
+http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+
+*/
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  /*Base CSS*/
+  body {
+    font-family: "Droid Serif";
+    background: #374e5a;
+    overflow: auto;
+  }
+  
+  .row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .col{
+    padding: 20px;
+    border: 1px solid #c0c0c0;
+    border-radius: 6px;
+  }
+
+
+  /* Base */
+  .col:nth-child(odd) {
+    background-color: #8fb87f;
+  }
+  .col p {
+    color: #fff;
+    margin: 0px;
+    text-shadow: 1px 1px #000;
+  }
+  .fancy {
+    display: none;
+  }
+  
+  /* Max Width */
+  
+
+  
+  /* Ranged */
+  
+ 
+  /* Min Width */
+  
+
+    
+  }
+  
+  /*retina specific --- https://goo.gl/Pgu6y */
+  
+  
+  
