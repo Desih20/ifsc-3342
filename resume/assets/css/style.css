@@ -10,7 +10,7 @@ html {
   
   /* ------ Fluid Images -------*/
   
-  img{max-width:50%;}
+  img{max-width 20px;}
   
   /* ------ Utility Classes  -------*/
   .container{
